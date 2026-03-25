@@ -51,19 +51,27 @@
 
 .about {
     background-image: url(images/background.jpg);
-    background: linear-gradient(to top);
+
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100%;
-    color: white;   
-    font-family: "Poppins", sans-serif;
+    color: white; 
     box-shadow: 0 -1px 15px rgba(0, 0, 0, 0.3);
 }
+.about h2{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.about p{
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+}
 .about:hover {
-  background: linear-gradient(#000000, #434343, #ffffff);
+  background: linear-gradient(to top, #000000, #434343, #ffffff);
   transform: scale(1.02);
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
   transition: all 0.5s ease;}
 
 .about, .videos, .cta {
@@ -77,6 +85,10 @@
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
+}
+.videos h2{
+    font-size: 30px;
+    padding: 10px 0;
 }
 iframe {
     width: 400px;
