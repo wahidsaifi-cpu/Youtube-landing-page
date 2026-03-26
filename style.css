@@ -7,7 +7,7 @@
 /* HERO */
 .hero {
     height: 60vh;
-    width: 100vw;
+    width: 100%;
     /* background: linear-gradient(to right, #FF0000, #FBCEB1); */
     background: linear-gradient(to bottom, #000000, #434343, #ffffff);
     color: white;
@@ -55,7 +55,7 @@
 
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     color: white; 
     box-shadow: 0 -1px 15px rgba(0, 0, 0, 0.3);
@@ -101,7 +101,7 @@ iframe {
 /* CTA */
 .cta {
     background: black;
-    width: 100vw;
+    width: 100%;
     color: white;
     font-family: "Poppins", sans-serif;
 }
@@ -112,7 +112,7 @@ iframe {
 
 /* FOOTER */
 footer {
-    width: 100vw;
+    width: 100%;
     text-align: center;
     padding: 20px;
     background: #222;
